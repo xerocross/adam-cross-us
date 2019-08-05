@@ -2,10 +2,12 @@ import React from 'react';
 import './App.scss';
 import headerText from './images/header-text.svg'; // with import
 import TopSiteItem from "./components/TopSiteItem.jsx";
-
 export default class App extends React.Component {
+    componentDidMount () {
+        const img = new Image();
+        img.src = headerText;
+    }
     render () {
-    //https://adamcross.blog/
         return (
             <div className="App">
                 <div className = "container">
