@@ -18,13 +18,13 @@ export default class App extends React.Component {
                         <div className = "topSites">
                             <h2>Top Sites</h2>
                             <TopSiteItem url = {("http://widgetwonk.com")} name = {"WidgetWonk"}>
-                                <strong>WidgetWonk</strong> basically <em>is</em> my portfolio right now.  
+                                It basically <em>is</em> my portfolio right now.  
                                         It showcases my work as a frontend developer. 
                                         I have worked primarily on frontend <em>functionality</em>: not 
                                         so much on styles.
                             </TopSiteItem>
                             <TopSiteItem url = {"https://adamcross.blog/"} name = {"My Blog"}>
-                                <strong>adamcross.blog</strong> is my written-form blog.  I have written quite a lot there.  Sometimes I like to write stream-of-consciousness thoughts while I'm studying and teaching myself a topic, like when I was learning React.  I wrote several blog posts in that style on React.
+                                My written-form blog.  I have written quite a lot there.  Sometimes I like to write stream-of-consciousness thoughts while I'm studying and teaching myself a topic, like when I was learning React.  I wrote several blog posts in that style on React.
                             </TopSiteItem>
                             
                             <TopSiteItem url = {"https://github.com/xerocross"} name = {"My GitHub"}>
