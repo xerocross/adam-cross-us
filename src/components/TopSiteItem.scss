@@ -1,5 +1,33 @@
 .TopSiteItem {
     .toggleButton {
         cursor: pointer;
+        font-weight: bold;
+        font-size: 120%;
+    }
+    .goButtonDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .urlDisplay {
+        color: red;
+        word-break: break-all;
+    }
+    .goButton {
+        border-style: solid;
+        border-radius: 15px;
+        height: 3em;
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: center;
+        font-weight: bold;
+
+        &:hover {
+            box-shadow: 3px 3px 5px;
+            text-decoration: none;
+        }
     }
 }

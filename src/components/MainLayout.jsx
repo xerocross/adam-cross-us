@@ -22,10 +22,9 @@ export default class MainLayout extends React.Component {
                     </header>
                     <main>
                         <Row>
-                            <Col sm = {6} ><Profile /></Col>
-                            <Col sm={6} ><TopSites /></Col>
+                            <Col md = {6} ><Profile /></Col>
+                            <Col md={6} ><TopSites /></Col>
                         </Row>
-                        
                     </main>
                 </div>
             </div>

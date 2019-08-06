@@ -1,45 +1,59 @@
 import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'
 import TopSiteItem from "./TopSiteItem.jsx";
+import "./TopSites.scss";
 
 export default class TopSites extends React.Component {
-    
     render () {
         return (
             <div className = "TopSites">
+                <h2>Most Important Stuff</h2>
                 <Accordion defaultActiveKey="0">
-                    <TopSiteItem 
-                        url = {"https://adamcross.blog/"} 
-                        name = {"My Blog"}
-                        headingId = {"blogHeading"}
-                        eventKey = {"0"}
-                    >
-                        <p className = "description">
-                                My written-form blog.  I have written quite a lot there.  Sometimes I like to write stream-of-consciousness thoughts while I'm studying and teaching myself a topic, like when I was learning React.  I wrote several blog posts in that style on React.
-                        </p>
-                    </TopSiteItem>
                     <TopSiteItem 
                         url = {("http://widgetwonk.com")} 
                         name = {"WidgetWonk"}
-                        eventKey = {"1"}
+                        eventKey = {"0"}
                     >
                         <p  className = "description">
-                                        It basically <em>is</em> my portfolio right now.  
-                                        It showcases my work as a frontend developer. 
-                                        I have worked primarily on frontend <em>functionality</em>: not 
-                                        so much on styles.
+                                        This basically <em>is</em> my frontend portfolio.  It spans <strong>VueJS</strong>, <strong>React</strong>, <strong>AngularJS</strong>, a lot of other important frontend
+                                        techniques and libraries, and some light backend work using <strong>Node</strong>, <strong>Express</strong>, and <strong>MongoDB</strong>.
+                        </p>
+                    </TopSiteItem>
+                    <TopSiteItem 
+                        url = {"https://adamcross.blog/"} 
+                        name = {"Written Blog"}
+                        headingId = {"blogHeading"}
+                        eventKey = {"1"}
+                    >
+                        <p className = "description">
+                                My written-form blog on software development.  Until now, it has mainly focused on frontend web development.  I have written quite a lot there.
                         </p>
                     </TopSiteItem>
                     <TopSiteItem 
                         url = {("https://github.com/xerocross")} 
                         name = {"GitHub"}
-                        eventKey = {"https://github.com/xerocross"}
+                        eventKey = {"3"}
                     >
                         <p  className = "description">
-                            This is my GitHub.  I put almost everything I write on there.  Bear in mind that some of it is 
-                            quite old and I've gotten better as a programmer in the meantime.
+                            My GitHub.  I'm <code>xerocross</code>.  I put almost everything I write on there.
+                        </p>
+                    </TopSiteItem>
+                    <TopSiteItem 
+                        url = {("https://www.youtube.com/channel/UCpPMzmPnToOYX-UvB3rFfLQ")} 
+                        name = {"YouTube Channel"}
+                        eventKey = {"4"}
+                    >
+                        <p  className = "description">
+                            I just started making YouTube videos recently (late 2019).  For now they focus mainly on JavaScript and web dev.
+                        </p>
+                    </TopSiteItem>
+                    <TopSiteItem 
+                        url = {("https://twitter.com/adam_fg_cross")} 
+                        name = {"Twitter"}
+                        eventKey = {"5"}
+                    >
+                        <p  className = "description">
+                            I'm @adam_fg_cross on Twitter.  I actively encourage communication from people I don't know yet, so feel free to contact me there.  Also I micro-blog a lot on Twitter.
                         </p>
                     </TopSiteItem>
                 </Accordion>
