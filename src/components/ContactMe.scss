@@ -1,0 +1,17 @@
+.ContactMe {
+    .info {
+        font-style: italic;
+        font-size: 120%;
+    }
+    .icon {
+        width: 4em;
+        height: auto;
+        margin-left: .2em;
+        margin-right: .2em;
+    }
+    .socialMediaBar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
