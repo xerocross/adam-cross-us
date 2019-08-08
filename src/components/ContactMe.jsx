@@ -3,13 +3,13 @@ import "./ContactMe.scss";
 import TwitterIcon from "../images/twitter-icon.png";
 import LinkedInIcon from "../images/linkedin-icon.png";
 import YouTubeIcon from "../images/youtube-icon.png";
+import GitHubIcon from "../images/github-icon.png";
 
 export default function () {
     return (
         <div className = "ContactMe">
             <p className = "info">
-                If you want to contact me and/or stalk me online, these are your options.
-                I'm not on Facebook, and I just&hellip;don't have the email, so&hellip;
+                Use Twitter.  I actually read Twitter.
             </p>
             <div className = "socialMediaBar">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/adam_fg_cross">
@@ -31,6 +31,13 @@ export default function () {
                         className = "icon youtube" 
                         alt = "YouTube Icon" 
                         src = {YouTubeIcon}
+                    />
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/xerocross">
+                    <img 
+                        className = "icon github" 
+                        alt = "GitHub Icon" 
+                        src = {GitHubIcon}
                     />
                 </a>
             </div>
