@@ -9,7 +9,7 @@ export default function () {
     return (
         <div className = "ContactMe">
             <p className = "info">
-                Use Twitter.  I actually read Twitter.
+                Use Twitter or LinkedIn to contact me.  I actually read Twitter.  I check LinkedIn occasionally.
             </p>
             <div className = "socialMediaBar">
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/adam_fg_cross">
