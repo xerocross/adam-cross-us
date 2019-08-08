@@ -22,6 +22,7 @@ export default class MainLayout extends React.Component {
                             <Col md = {6} ><Profile /></Col>
                             <Col md={6} ><TopSites /></Col>
                         </Row>
+                        
                     </main>
                 </div>
             </div>
