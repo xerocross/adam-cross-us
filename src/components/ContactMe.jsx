@@ -12,7 +12,7 @@ export default function () {
                 Use Twitter or LinkedIn to contact me.  I actually read Twitter.  I check LinkedIn occasionally.
             </p>
             <div className = "socialMediaBar">
-                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/adam_fg_cross">
+                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/adamfgcross">
                     <img 
                         className = "icon twitter" 
                         alt = "Twitter Icon" 

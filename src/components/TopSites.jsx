@@ -48,12 +48,12 @@ export default class TopSites extends React.Component {
                         </p>
                     </TopSiteItem>
                     <TopSiteItem 
-                        url = {("https://twitter.com/adam_fg_cross")} 
+                        url = {("https://twitter.com/adamfgcross")} 
                         name = {"Twitter"}
                         eventKey = {"5"}
                     >
                         <p  className = "description">
-                            I'm @adam_fg_cross on Twitter.  I actively encourage communication from people I don't know yet, so feel free to contact me there.  Also I micro-blog a lot on Twitter.
+                            I'm @adamfgcross on Twitter.  I actively encourage communication from people I don't know yet, so feel free to contact me there.  Also I micro-blog a lot on Twitter.
                         </p>
                     </TopSiteItem>
                 </Accordion>
